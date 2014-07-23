@@ -1,4 +1,4 @@
-(ns quilplay.core
+(ns visualising-data.core
   (:use quil.core)
   (:require [quilplay.dynamic :as dynamic]))
 

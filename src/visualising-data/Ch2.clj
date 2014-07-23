@@ -1,4 +1,4 @@
-(ns quilplay.visdataCh2
+(ns visualising-data.Ch2
   (:use quil.core))
 
 (defn setup []

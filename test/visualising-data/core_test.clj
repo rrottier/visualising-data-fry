@@ -1,6 +1,6 @@
-(ns quilplay.core-test
+(ns visualising-data.core-test
   (:require [clojure.test :refer :all]
-            [quilplay.core :refer :all]))
+            [visualising-data.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."

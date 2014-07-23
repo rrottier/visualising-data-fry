@@ -1,4 +1,4 @@
-(ns quilplay.visdataCh3
+(ns visualising-data.Ch3
   (:use quil.core)
   (:use clojure-csv.core)
   (:require [clojure.java.io :as io]
@@ -163,6 +163,11 @@
 
 (defn updateTable []
   (dosync (ref-set data (read-data "http://benfry.com/writing/map/random.cgi"))))
+
+;; TODO - Add the smooth interpolation over time of changes once I understand how to do it in a functional way
+
+
+;; TODO - Refactor
 
 (defn draw []
   (smooth)
